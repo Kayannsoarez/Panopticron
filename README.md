@@ -1,5 +1,8 @@
 # Panopticron
-Projeto de Microprocessados 
+Loading ... 
+
+## Proposta de Projeto
+
 
 ## Integrantes
 * Kayann Costa Soares
