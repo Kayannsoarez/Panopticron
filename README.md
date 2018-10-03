@@ -1,7 +1,8 @@
 # Panopticron
 #### A robot based on stabilization system self-balancing motorcycle
 
-## Proposta de Projeto
+## Description
+Loading ... 
 
 ## Components
 * Microprocessor: GreenPill - Cortex M0
