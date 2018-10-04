@@ -8,6 +8,7 @@ Loading ...
 * Microprocessor: GreenPill - Cortex M0
 * Module: accelerometer & gyroscope - MPU_6050
 * 2 Motors
+* Driver Motor
 * Battery
 
 ## Group
