@@ -33,9 +33,9 @@ void KalmanFilter::Kalman_Filter(double angle_m, double gyro_m,float dt,float Q_
   P[0][1] -= K_0 * t_1;
   P[1][0] -= K_1 * t_0;
   P[1][1] -= K_1 * t_1;
-  angle += K_0 * angle_err; //×îÓÅ½Ç¶È
+  angle += K_0 * angle_err; //æœ€ä¼˜è§’åº¦
   q_bias += K_1 * angle_err;
-  angle_dot = gyro_m - q_bias; //×îÓÅ½ÇËÙ¶È
+  angle_dot = gyro_m - q_bias; //æœ€ä¼˜è§’é€Ÿåº¦
 }
 
 ////////////////////////kalman/////////////////////////
@@ -46,17 +46,17 @@ void KalmanFilter::Angletest(int16_t ax,int16_t ay,int16_t az,int16_t gx,int16_t
 									float R_angle,float C_0,float K1)
 {
   // int flag;
-  //Æ½ºâ²ÎÊı
-  float Angle = atan2(ay , az) * 57.3;           //½Ç¶È¼ÆËã¹«Ê½,Angle:Ò»½×»¥²¹ÂË²¨¼ÆËã³öµÄĞ¡³µ×îÖÕÇãĞ±½Ç¶È
-  Gyro_x = (gx - 128.1) / 131;              //½Ç¶È×ª»»
-  Kalman_Filter(Angle, Gyro_x, dt, Q_angle, Q_gyro,R_angle,C_0);            //¿¨ÂüÂË²¨
-  //Ğı×ª½Ç¶ÈZÖá²ÎÊı
-  if (gz > 32768) gz -= 65536;              //Ç¿ÖÆ×ª»»2g  1g
-  Gyro_z = -gz / 131;                      //ZÖá²ÎÊı×ª»»
+  //å¹³è¡¡å‚æ•°
+  float Angle = atan2(ay , az) * 57.3;           //è§’åº¦è®¡ç®—å…¬å¼,Angle:ä¸€é˜¶äº’è¡¥æ»¤æ³¢è®¡ç®—å‡ºçš„å°è½¦æœ€ç»ˆå€¾æ–œè§’åº¦
+  Gyro_x = (gx - 128.1) / 131;              //è§’åº¦è½¬æ¢
+  Kalman_Filter(Angle, Gyro_x, dt, Q_angle, Q_gyro,R_angle,C_0);            //å¡æ›¼æ»¤æ³¢
+  //æ—‹è½¬è§’åº¦Zè½´å‚æ•°
+  if (gz > 32768) gz -= 65536;              //å¼ºåˆ¶è½¬æ¢2g  1g
+  Gyro_z = -gz / 131;                      //Zè½´å‚æ•°è½¬æ¢
   accelz = az / 16.4;
 
-  float angleAx = atan2(ax, az) * 180 / PI; //¼ÆËãÓëxÖá¼Ğ½Ç
-  Gyro_y = -gy / 131.00; //¼ÆËã½ÇËÙ¶È
-  Yiorderfilter(angleAx, Gyro_y, dt, K1); //Ò»½×ÂË²¨
+  float angleAx = atan2(ax, az) * 180 / PI; //è®¡ç®—ä¸xè½´å¤¹è§’
+  Gyro_y = -gy / 131.00; //è®¡ç®—è§’é€Ÿåº¦
+  Yiorderfilter(angleAx, Gyro_y, dt, K1); //ä¸€é˜¶æ»¤æ³¢
 
 }
