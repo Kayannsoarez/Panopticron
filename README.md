@@ -11,6 +11,7 @@ Using the GreenPill - STM32F030F4P6 which is a Microprocessor incorporates the h
 It’s important to mention that the angle data needs to be filter because the system will always shock in the process of motion, what makes an interference with the MPU. The Kalman filtering algorithm used to be applied to process data algorithm in the field of automatic control, it’s your biggest area. It’s important to mention that the system’s external disturbances and observation errors, assuming the system could predicted the value and the measured value, which represent the real value combined with the noise, respectively. In that way, the most close value next to the real signal can be obtained.
 
 This project is integrate with this App: https://github.com/Glautor/AndroidSocketAsyncEsp
+for control of robot to change the reference of stabilization, to rotate in both directions and change the reference to make go forward and go back
 
 
 ## Components
