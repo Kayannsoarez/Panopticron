@@ -18,7 +18,7 @@ for control of robot to change the reference of stabilization, to rotate in both
 * Microprocessor: GreenPill - Cortex M0
 * Module: accelerometer & gyroscope - MPU_6050
 * 2 Motors
-* Driver Motor
+* 2 Driver Motor
 * Battery
 
 ## Group
