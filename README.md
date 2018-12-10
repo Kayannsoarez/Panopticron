@@ -26,3 +26,15 @@ for control of robot to change the reference of stabilization, to rotate in both
 * Luan Alves Cruz
 * Glauton Cardoso Santos
 
+License
+----------
+
+AndroidSocketAsyncEsp is Copyright © 2018 thoughtbot, inc. It is free software and you can use how you want to.
+
+Aplication's Image
+----------
+
+### The Robot
+* ![alt text](https://uploaddeimagens.com.br/images/001/771/400/full/photo_2018-12-10_10-47-46.jpg?1544449694)
+### Components
+* ![alt text](https://uploaddeimagens.com.br/images/001/771/395/full/photo_2018-12-10_10-46-39.jpg?1544449628)
