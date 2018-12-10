@@ -35,6 +35,6 @@ Aplication's Image
 ----------
 
 ### The Robot
-* ![alt text](https://uploaddeimagens.com.br/images/001/771/400/full/photo_2018-12-10_10-47-46.jpg?1544449694)
+![alt text](https://uploaddeimagens.com.br/images/001/771/400/full/photo_2018-12-10_10-47-46.jpg?1544449694)
 ### Components
-* ![alt text](https://uploaddeimagens.com.br/images/001/771/395/full/photo_2018-12-10_10-46-39.jpg?1544449628)
+![alt text](https://uploaddeimagens.com.br/images/001/771/395/full/photo_2018-12-10_10-46-39.jpg?1544449628)
