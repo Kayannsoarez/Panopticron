@@ -2,7 +2,7 @@
 #### A robot based on stabilization system self-balancing motorcycle using Cortex-M0. 
 
 ## Description
-Using the GreenPill - STM32F030F4P6 which is a Microprocessor incorporates the high-performance ARM Cortex - M0 32-bit RISC core for create a robot with stabilization control system of self-balancing. This self-balance robot is made by subassemblies: 
+Using the GreenPill - STM32F030F4P6 which is a Microprocessor incorporates the high-performance ARM Cortex M0 - 32 bit RISC core for create a robot with stabilization control system of self-balancing. This self-balance robot is made by subassemblies: 
 
 * The first one is mpu 6050 which is a module of sensor Gyro + Accelerometer which can sens any tiny movement convert it in to signal and transmit it into the controler after that the controler will process the signal and respond to it this respond signal will go to the motor driver and convert to the level of voltage, the voltage leavel determines how the motor moves at the same time  will give feedback to the controller so, its the Gyro + Accelerometer sensor will determine the balance of the robot. This is the mechanical principle in order to achieve auto-balance.
 
