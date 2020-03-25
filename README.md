@@ -29,7 +29,7 @@ for control of robot to change the reference of stabilization, to rotate in both
 License
 ----------
 
-AndroidSocketAsyncEsp is Copyright © 2018 thoughtbot, inc. It is free software and you can use how you want to.
+Panopticron is Copyright © 2018 thoughtbot, inc. It is free software and you can use how you want to.
 
 Aplication's Image
 ----------
